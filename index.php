@@ -5,12 +5,11 @@
     <section class="hero">
     	<div class="container pos">
     		<div class="row">
-    			<div class="cash-hand hidden-xs"></div>
     			<div class="col-xs-6 col-xs-offset-6 col-sm-4 col-sm-offset-3 adj-1 hidden-xs">
     				<img src="img/logo.png" class="img-responsive" />
     			</div>
     			<div class="col-sm-6 col-sm-offset-2 hidden-xs">
-    				<h1><span class="hidden-xs">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="s1"><span class="blue">Win</span> This</span> <br />
+    				<h1 class="black"><span class="hidden-xs">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="s1">Win This</span> <br />
 					<span class="s2">1968</span> <br class="visible-xs"/><span class="red">Dodge <br class="visible-xs"/><span class="type-mark">Charger</span></span> <br />&nbsp;&nbsp;&nbsp;
 					<span class="s2 adj-3">And</span><br class="visible-xs"/> $20,000 <br class="visible-xs"/>Cash</h1>
 				</div>
@@ -19,6 +18,7 @@
 					<img src="img/vid-partners.png" class="img-responsive adj-2" />
 					<div class="vid-box">
 						<img src="img/video.webp" class="img-responsive" />
+						<div class="cash-hand hidden-xs"></div>
 					</div>
 				</div>
 				<div class="col-sm-4 signup">
@@ -61,7 +61,7 @@
 		</div>
 		<div class="container">
 			<div class="row">
-				<div class="col-sm-12 feat-car">
+				<div class="col-sm-10 feat-car">
 					<img src="img/t2-img-1.webp" class="img-responsive" />
 					<div class="car-name-con">
 						<span class="white">1969</span> Chevy Chevelle
@@ -70,7 +70,9 @@
 						<span class="white">Pro</span> <br />Touring
 					</div>
 				</div>
-				<div class="col-xs-4 col-sm-2 col-sm-offset-1">
+			</div>
+			<div class="row">
+				<div class="col-xs-4 col-sm-2">
 					<div class="feat-deats">
 						<div class="ico-holder">
 							<img src="img/t2-ico-1.png" class="img-responsive" />
@@ -140,7 +142,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-10 col-sm-offset-2 adj-1">
-					<h2 class="white t-shad">The <span class="jcd-underline">Build</span> Sheet</h2>
+					<h2 class="t-shad">The <span class="jcd-underline">Build</span> Sheet</h2>
 				</div>
 				<div class="col-sm-5 col-sm-offset-1">
 					<ul class="adj-2">
@@ -204,13 +206,14 @@
 	</section>
 
 	<section class="tier-3">
+		<div class="tier-3b">
 		<div class="container pos">
 			<div class="row">
 				<div class="col-sm-3 cup">
 					<img src="img/t3-cup.png" class="img-responsive" />
 				</div>
 				<div class="col-sm-12 adj-1">
-					<h2 class="white text-right t-shad">Previous <span class="jcd-underline">Winners</span></h2>
+					<h2 class="white t-shad">Previous <span class="jcd-underline">Winners</span></h2>
 				</div>
 			</div>
 			<div class="row">
@@ -272,6 +275,7 @@
 					Hear From More Winners
 				</div></a>
 			</div>
+		</div>
 		</div>
 	</section>
 
