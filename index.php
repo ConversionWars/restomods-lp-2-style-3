@@ -401,7 +401,7 @@
 	<section id="close-cta" class="closer">
 		<div class="container pos">
 			<div class="row adj-1">
-				<div class="col-sm-4 col-sm-offset-3">
+				<div class="col-sm-4 col-sm-offset-3 adj-5">
 					<img src="img/logo.png" class="img-responsive" />
 				</div>
 			</div>
@@ -409,29 +409,46 @@
 				<div class="col-sm-9">
 					<img src="img/t5-img-1.webp" class="feat img-responsive" />
 				</div>
-				<div class="col-sm-6 col-sm-offset-2 pos">
+				<div class="col-sm-6 adj-3 pos">
     				<div class="close-star"></div>
-    				<h1 class="adj-2"><span class="hidden-xs">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="s1"><span class="blue">Win</span></span> This <br />
+    				<h1 class="adj-2"><span class="hidden-xs">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="s1">Win This</span> <br />
 					<span class="s2">1968</span> <br class="visible-xs"/><span class="red">Dodge <br class="visible-xs"/><span class="type-mark">Charger</span></span> <br /><span class="hidden-xs">&nbsp;&nbsp;&nbsp;</span><span class="s2 adj-3">And</span> <br class="visible-xs"/>$20,000 <br class="visible-xs"/>Cash</h1>
 				</div>
-				<div class="col-sm-7 white-bar hidden-xs">
-					This 1968 Dodge Charger<br /> is the 25th sweepstakes<br /> car and you can<br /> <span class="red">WIN IT <span class="fast-mark">HERE</span></span>
-				</div>
-				<div class="col-sm-5 white-bar adj-3 hidden-xs"></div>
 			</div>
 			<div class="row">
-				<div class="col-sm-3 col-sm-offset-5 adj-4 hidden-xs">
-					<img src="img/black-cd.webp" class="img-responsive" />
+				<div class="col-sm-5 col-sm-offset-1 adj-6">
+					<p><b>Every classic muscle car</b> that we give away at <b>Resto<span class="red">Mods</span></b> is a <b>tastefully restored and modified piece of art</b> that not only looks fantastic in your garage, but also drives fast and carves corners!</p>
 				</div>
 			</div>
-			<div class="close-girl"><img src="img/t5-girl.png" class="img-responsive" /></div>
-			<div class="col-sm-4 signup">
-				<div class="signup-overlay">
-					<?php include('template/signup-contents.php'); ?>
+			<div class="row">
+				<div class="col-sm-6 adj-4 text-center hidden-xs">
+					<h5>This 1968 Dodge Charger is <br />the 25th sweepstakes car <br />and you can <span class="red">WIN IT <span class="fast-mark">HERE</span></span></h5>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-6 cta hidden-xs">
+					<a href="#signup" class="cta-btn">Enter Now</a>
+					<div class="l-arrow"></div>
+				</div>
+				<div class="col-sm-3 adj-7 hidden-xs">
+					<img src="img/black-cd.webp" class="img-responsive" />
+					<div class="win-squares"><img src="img/squares.webp" class="img-responsive" /></div>
 				</div>
 			</div>
 		</div>
 	</section>
+
+	<div class="signup visible-xs">
+		<div class="signup-overlay">
+			<div class="vid-con visible-xs">							
+				<div class="vid-box">
+					<img src="img/video.webp" class="img-responsive" />
+				</div>
+				<img src="img/vid-partners.png" class="img-responsive adj-2" />
+			</div>
+			<?php include('template/signup-contents.php'); ?>
+		</div>
+	</div>
 
 	<section class="tier-sep">
 		<div class="container">
